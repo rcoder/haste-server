@@ -7,7 +7,7 @@
 
   "maxLength": 400000,
 
-  "staticMaxAge": 86400,
+  "staticMaxAge": 3600,
 
   "recompressStaticAssets": true,
 
@@ -36,7 +36,7 @@
     "type": "memcached",
     "host": "127.0.0.1",
     "port": 11211,
-    "expire": 2592000
+    "expire": 604800
   },
 
   "documents": {

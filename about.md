@@ -4,14 +4,12 @@ Sharing code is a good thing, and it should be _really_ easy to do it.
 A lot of times, I want to show you something I'm seeing - and that's where we
 use pastebins.
 
-Haste is the prettiest, easiest to use pastebin ever made.
-
 ## Basic Usage
 
 Type what you want me to see, click "Save", and then copy the URL.  Send that
 URL to someone and they'll see what you see.
 
-To make a new entry, click "New" (or type 'control + n')
+To make a new entry, click "New", or type `ctrl + n` (or `shift + ctrl + n` if your browser hijacks the former).
 
 ## From the Console
 
@@ -19,7 +17,7 @@ Most of the time I want to show you some text, it's coming from my current
 console session.  We should make it really easy to take code from the console
 and send it to people.
 
-`cat something | haste` # https://hastebin.com/1238193
+`cat something | haste` # https://0.dyn.bc8.org/1238193
 
 You can even take this a step further, and cut out the last step of copying the
 URL with:
@@ -43,7 +41,7 @@ and without notice.
 
 ## Privacy
 
-While the contents of hastebin.com are not directly crawled by any search robot
+While the contents of 0.dyn are not directly crawled by any search robot
 that obeys "robots.txt", there should be no great expectation of privacy.  Post
 things at your own risk. Not responsible for any loss of data or removed
 pastes.
